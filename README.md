@@ -40,16 +40,25 @@
 
 ## 🧩 โครงสร้างโปรเจกต์ (Project Structure)
 
+## 🧩 โครงสร้างโปรเจกต์ (Project Structure)
+
+<div align="left">
+
+<pre>
 healthy_habits_tracker/
 │
-├── app.py                          # ไฟล์หลักของโปรแกรม (entry point)
-├── requirements.txt                # รายชื่อไลบรารีที่ใช้ในโปรเจกต์
+├── <b>app.py</b>                      จุดเริ่มต้นของ Flask Application
+├── <b>requirements.txt</b>            ไลบรารีที่ใช้ในโปรเจกต์
 │
-└── modules/                        # โฟลเดอร์เก็บโมดูลหลักของระบบ
-    ├── CalculationModule.py        # จัดการการคำนวณต่าง ๆ เช่น แคลอรี่หรือเป้าหมายสุขภาพ
-    ├── ConnectDatabase.py          # เชื่อมต่อฐานข้อมูล SQLite / MySQL
-    ├── DashboardModule.py          # จัดการหน้าจอ Dashboard แสดงข้อมูลผู้ใช้
-    ├── NutritionixModule.py        # ดึงข้อมูลโภชนาการจาก API Nutritionix
-    ├── ReportModule.py             # สร้างรายงานสรุปผลพฤติกรรมสุขภาพของผู้ใช้
-    ├── UserModule.py               # จัดการข้อมูลผู้ใช้ เช่น การลงทะเบียน / เข้าสู่ระบบ
-    └── __init__.py                 # ระบุว่าเป็นแพ็กเกจ Python
+└── <b>modules/</b>
+    ├── CalculationModule.py    ฟังก์ชันคำนวณสุขภาพ
+    ├── ConnectDatabase.py      จัดการฐานข้อมูล
+    ├── DashboardModule.py      สร้างแดชบอร์ด
+    ├── NutritionixModule.py    ดึงข้อมูลจาก Nutritionix API
+    ├── ReportModule.py         สร้างรายงานสุขภาพ
+    ├── UserModule.py           จัดการผู้ใช้
+    └── __init__.py
+</pre>
+
+</div>
+
