@@ -67,7 +67,7 @@ healthy_habits_tracker/
 ### 1️⃣ Clone the project
 
 ```bash
-git clone https://github.com/<your-username>/healthy_habits_tracker.git
+git clone https://github.com/DEW177/healthy_habits_tracker.git
 cd healthy_habits_tracker
 ```
 
